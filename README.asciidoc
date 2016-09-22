@@ -1,7 +1,7 @@
 == Simple Arquillian HelloWorld example
 
 Example is configured to use the Arquillian Chameleon adapter
-to start a WildFly 9.0.0.Final Managed container during testing.
+to start a different Managed containers during testing.
 
 The example contain a simple CDI service under test showing the
 complete lifecycle of Arquillian;
@@ -11,6 +11,12 @@ complete lifecycle of Arquillian;
 * test
 * undeploy
 * container stop
+
+=== Supported maven profiles
+
+* arquillian-jboss7
+* arquillian-wildfly9
+* arquillian-wildfly10
 
 === Resources
 
